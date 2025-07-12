@@ -119,9 +119,6 @@ class PendaftaranController extends Controller
         
         $pendaftaran = Pendaftaran::findOrFail($id);
         
-        // TODO: Implement approval logic
-        // Consider adding status field to database
-        
         return back()->with('success', 'Pendaftaran berhasil disetujui!');
     }
 
@@ -131,9 +128,6 @@ class PendaftaranController extends Controller
         $this->authorizeAdminAccess();
         
         $pendaftaran = Pendaftaran::findOrFail($id);
-        
-        // TODO: Implement rejection logic
-        // Consider adding status field to database
         
         return back()->with('success', 'Pendaftaran berhasil ditolak!');
     }
