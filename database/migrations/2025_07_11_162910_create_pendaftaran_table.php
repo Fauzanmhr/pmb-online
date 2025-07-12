@@ -32,7 +32,6 @@ return new class extends Migration
             $table->enum('jenis_kelamin', ['Pria', 'Wanita']);
             $table->enum('status_menikah', ['Belum menikah', 'Menikah', 'Lain-lain']);
             $table->unsignedBigInteger('agama_id');
-            $table->string('foto')->nullable();
             $table->timestamp('tanggal_daftar')->useCurrent();
             $table->timestamps();
             
