@@ -117,7 +117,7 @@
                             </select>
                         </div>
                         <div class="mb-3">
-                            <label for="bila_tempat_lahir_diluar_negeri" class="form-label">Bila tempat lahir di luar negeri sebutkan negaranya</label>
+                            <label for="bila_tempat_lahir_diluar_negeri" class="form-label">Bila Tempat Lahir di Luar Negeri Sebutkan Negaranya</label>
                             <input type="text" class="form-control" id="bila_tempat_lahir_diluar_negeri" name="bila_tempat_lahir_diluar_negeri" value="{{ old('bila_tempat_lahir_diluar_negeri') }}">
                         </div>
                         <!-- 6. Jenis Kelamin -->
